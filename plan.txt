@@ -1,0 +1,23 @@
+Features of the app:
+ 
+1. The first page 
+    - The h1 element 
+    - The paragraph element
+    - The button element
+    - The light-blue background with the cream and light blue blob in the corner 
+
+2. The second page
+
+
+Functionality 
+
+use library to decode the HTML entities 
+create new array with all the answers. Randomly insert the correct_answer into the array with the incorrect_answers.
+limit the answer choice to 1 and style selected answer:
+    - track the selected answer index inside each questionobject
+    - use an HTML form with radio inputs using the same name attribute to automatically only allow one selection (and check Google on how to style a radio input to look like a button )
+    
+
+
+
+
