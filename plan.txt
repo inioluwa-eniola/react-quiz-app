@@ -7,6 +7,36 @@ Features of the app:
     - The light-blue background with the cream and light blue blob in the corner 
 
 2. The second page
+    - The first quiz is displayed
+        - The options for the answers are added down at the bottom 
+            - The buttons get a solid fill when you hover over them and they don't heva border 
+        - The answers are displayed in a horizontal fashion
+
+    - A horizontal rule is also displayed - could use a border bottom or horizontal rule 
+
+    - The second quiz is displayed 
+        - The options are also displayed 
+    
+    - The third quiz is displayed 
+
+    -  The fourth quiz is also displayed 
+
+    - The "check answers" button is also displayed 
+
+
+3. The third page 
+    - The quizes are displayed 
+        - The correct answers get a green fill
+        - If the chosen answer is correct, then it is just filled in green as the other right answers are filled in green
+        - If the chosen answer is wrong, the is it filled in red, and the correct answer is filled in green
+    - A tally of he correct answers are collected
+
+    - At the section where the button was originally rendered, a sentence like "You scored 3/5 correct answers" is shown next to the play again button
+    - The "check answers" button from the previous section changes to a "play again" button
+
+
+
+
 
 
 Functionality 
@@ -18,6 +48,24 @@ limit the answer choice to 1 and style selected answer:
     - use an HTML form with radio inputs using the same name attribute to automatically only allow one selection (and check Google on how to style a radio input to look like a button )
     
 
+
+Next steps:
+
+1. Conditionally render the question page when the start quiz button is clicked (x)
+2. Render the questions and answers on the page 
+3. Change the style of the chosen answer
+4. Enable the check answers when all the four answers have been selected
+5. Render the page that contains the answers and the provides the score
+
+
+I want to be able to click on the answer and have its style change.
+I want to be able to only select one answer option.
+I want to be able to deselect the answer and have it style change to to how it was previously.
+
+I want to use a form element for the answers and make the answer buttons a radio button 
+Attach an id to each of the radio buttons that I can reference when I click on the answer. 
+I can compare ths id to the index in the answers object
+The answer I click should be registered and the index of the number 
 
 
 

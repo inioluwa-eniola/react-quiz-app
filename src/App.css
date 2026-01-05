@@ -1,0 +1,184 @@
+body {
+  box-sizing: border-box;
+}
+
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px auto 0px;
+}
+
+main.container {
+  background-color: #F5F7FB;
+  max-width: 100%;
+  max-height: 100%;
+  width: 600px;
+  height: 600px;
+  padding: 3rem;
+  border-radius: 10px;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+main.answer-container{
+  background-color: #F5F7FB;
+  max-width: 1000px;
+  max-height: 1000px;
+  margin: auto;
+  width: 80%;
+  height: auto;
+  padding: 3rem;
+  border-radius: 10px;
+}
+
+/* 
+I NEED TO HANDLE THE BLOB AT THT CORNER OF THE SCREEN LATER
+*/
+
+main header {
+  font-family: "Inter", sans-serif;
+  text-align: center;
+}
+
+main.container header h1 {
+  font-size: 2rem;
+  font-weight: 700;
+  color: #293264;
+  margin: 0px auto 15px;
+  text-align: center;
+}
+
+main.container header p {
+  font-size: 1rem;
+  font-weight: 400;
+  color: #293264;
+  margin: 10px auto 30px;
+  text-align: center;
+}
+
+main.container button.start-btn {
+  border: none;
+  padding: 10px 20px;
+  background-color: #4D5B9E;
+  height: 60px;
+  width: 190px;
+  color: white;
+  font-family: "Inter", sans-serif;
+  font-size: 1rem;
+  font-weight: 500;
+  border-radius: 15px;
+  cursor: pointer;
+}
+
+section.question {
+  font-family: "Inter", sans-serif;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  margin: 0px auto 10px;
+}
+
+section.question p {
+  color: #4D5B9E;
+  font-size: 1rem;
+  font-weight: 700;
+}
+
+section.question .answers-section {
+  display: flex;
+  gap: 10px;
+  align-items: center;
+  justify-content: center;
+}
+
+section.question .answers-section input[type="radio"] {
+  display: none;
+}
+
+
+section.question .answers-section label {
+  margin: auto 10px;
+  border: 1px solid #4D5B9E;
+  color: #293264;
+  padding: 5px 10px;
+  border-radius: 12px;
+  font-size: 1rem;
+  font-weight: 500;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+  width: 100%;
+}
+
+section.question .answers-section label.selected {
+  background-color: #cccccc;
+  border: none;
+}
+
+section.question .answers-section label.correct {
+  background-color: #94D7A2;
+  border: none;
+}
+
+section.question .answers-section label.wrong {
+  background-color: #F8BCBC;
+  border: none;
+}
+
+
+section.question .answers-section label:hover {
+  background-color: #D6DBF5;
+  border: none;
+}
+
+main .check-answers-btn {
+  border: none;
+  padding: 15px;
+  height: 50px;
+  width: 200px;
+  margin: 2rem auto 0px;
+  font-family: "Inter", sans-serif;
+  border-radius: 15px;
+  color: #F5F7FB;
+  background-color: #4D5B9E;
+  font-size: 1rem;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  cursor: pointer;
+}
+
+main .play-again-btn {
+  border: none;
+  padding: 15px;
+  height: 50px;
+  width: 200px;
+  font-family: "Inter", sans-serif;
+  border-radius: 15px;
+  color: #F5F7FB;
+  background-color: #4D5B9E;
+  font-size: 1rem;
+  cursor: pointer;
+}
+
+main .check-answers-btn:focus {
+  outline: none;
+}
+
+main .score-display-section {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 3rem;
+}
+
+main .score-display-section p {
+  font-weight: 700;
+  font-size: 1.25rem;
+  font-family: "Inter", sans-serif;
+  color: #293264
+}
